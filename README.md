@@ -16,7 +16,7 @@ Most of SOC analyst day to day work consists of detecting something that happene
 | SIEM | Splunk Enterprise (free tier) | Installed on host machine, receives forwarded logs |
 | Log shipping | Splunk Universal Forwarder | Installed on Windows target |
 
-**Network design:* each VM has two adapters — one on NAT (for internet access and log forwarding to the host) and one on an isolated internal only network (`labnet`, 10.10.10.0/24) which is used exclusively for attacker-to-target traffic. All attack traffic in this lab happened inside VirutalBox's internal network and never occurs over the home network or internet.
+*Network design:* each VM has two adapters — one on NAT (for internet access and log forwarding to the host) and one on an isolated internal only network (`labnet`, 10.10.10.0/24) which is used exclusively for attacker-to-target traffic. All attack traffic in this lab happened inside VirutalBox's internal network and never occurs over the home network or internet.
 
 ## Reports
 
